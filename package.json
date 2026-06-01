@@ -1,0 +1,15 @@
+{
+  "name": "einstein-chess",
+  "version": "1.0.0",
+  "description": "爱因斯坦棋 - 安徽省计算机博弈大赛",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "postinstall": "echo 依赖安装完成，npm start 启动服务"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4"
+  }
+}
